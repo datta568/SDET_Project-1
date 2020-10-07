@@ -1,0 +1,325 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-29T03:27:10.142Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8136000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "elearning.ElearningSteps.startUp()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "To validate registration and send message functionalities",
+        "description": "",
+        "id": "to-validate-registration-and-signin-functionalities-of-elearning-page;to-validate-registration-and-send-message-functionalities;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 740000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "elearning.ElearningSteps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11443000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to \"http://elearningm1.upskills.in/index.php\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://elearningm1.upskills.in/index.php",
+                  "offset": 15
+                }
+              ],
+              "location": "elearning.ElearningSteps.i_navigate_to_url(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 30003000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on SignUp button",
+            "match": {
+              "location": "elearning.ElearningSteps.i_click_on_signup_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 301000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter value into input field First Name",
+            "match": {
+              "location": "elearning.ElearningSteps.i_enter_value_into_input_field_first_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 176000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter value into input field Last Name",
+            "match": {
+              "location": "elearning.ElearningSteps.i_enter_value_into_input_field_last_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 158000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter value into input field email",
+            "match": {
+              "location": "elearning.ElearningSteps.i_enter_value_into_input_field_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 120000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter value into input field Username",
+            "match": {
+              "location": "elearning.ElearningSteps.i_enter_value_into_input_field_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 176000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter value into input field Password",
+            "match": {
+              "location": "elearning.ElearningSteps.i_enter_value_into_input_field_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 258000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter value into input field Confirm Password",
+            "match": {
+              "location": "elearning.ElearningSteps.i_enter_value_into_input_field_confirm_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4077000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on Register button",
+            "match": {
+              "location": "elearning.ElearningSteps.i_click_on_register_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 75000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I verify the message \"Your personal settings have been registered.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Your personal settings have been registered.",
+                  "offset": 22
+                }
+              ],
+              "location": "elearning.ElearningSteps.i_verify_the_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 149000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on user icon",
+            "match": {
+              "location": "elearning.ElearningSteps.i_click_on_user_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17679000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on inbox link",
+            "match": {
+              "location": "elearning.ElearningSteps.i_click_on_inbox_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2719000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on compose button",
+            "match": {
+              "location": "elearning.ElearningSteps.i_click_on_compose_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15230000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I enter value into input field Send To as \"naveen\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "naveen",
+                  "offset": 43
+                }
+              ],
+              "location": "elearning.ElearningSteps.i_enter_value_into_input_field_send_to(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1283000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click on \"naveen\" in options list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "naveen",
+                  "offset": 12
+                }
+              ],
+              "location": "elearning.ElearningSteps.i_click_on_sendto_in_options_list(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 209000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I enter value into input field Subject",
+            "match": {
+              "location": "elearning.ElearningSteps.i_enter_value_into_input_field_subject()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 430000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I enter value into input field Message",
+            "match": {
+              "location": "elearning.ElearningSteps.i_enter_value_into_input_field_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2298000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click on submit button",
+            "match": {
+              "location": "elearning.ElearningSteps.i_click_on_submit_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 67000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I should see success message as \"The message has been sent to\" and \"naveen\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "The message has been sent to",
+                  "offset": 33
+                },
+                {
+                  "val": "naveen",
+                  "offset": 68
+                }
+              ],
+              "location": "elearning.ElearningSteps.i_should_see_success_message(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@e2e"
+          }
+        ]
+      }
+    ],
+    "name": "To validate registration and signin functionalities of elearning page",
+    "description": "",
+    "id": "to-validate-registration-and-signin-functionalities-of-elearning-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/elearning.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

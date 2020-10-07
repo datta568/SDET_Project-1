@@ -1,0 +1,313 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-07T16:34:11.219Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "java.lang.IllegalStateException: The driver executable does not exist: C:\\Users\\prane\\Downloads\\chromedriver_win32\\chromedriver.exe\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:585)\r\n\tat org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)\r\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\r\n\tat Stepdefinition.ElearningSteps.startUp(ElearningSteps.java:34)\r\n",
+              "duration": 86000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Stepdefinition.ElearningSteps.startUp()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "To validate registration and send message functionalities",
+        "description": "",
+        "id": "to-validate-registration-and-signin-functionalities-of-elearning-page;to-validate-registration-and-send-message-functionalities;;2",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat Stepdefinition.ElearningSteps.closeBrowser(ElearningSteps.java:179)\r\n",
+              "status": "failed"
+            },
+            "match": {
+              "location": "Stepdefinition.ElearningSteps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "I navigate to \"http://elearningm1.upskills.in/index.php\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://elearningm1.upskills.in/index.php",
+                  "offset": 15
+                }
+              ],
+              "location": "Stepdefinition.ElearningSteps.i_navigate_to_url(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I click on SignUp button",
+            "match": {
+              "location": "Stepdefinition.ElearningSteps.i_click_on_signup_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I enter value into input field First Name",
+            "match": {
+              "location": "Stepdefinition.ElearningSteps.i_enter_value_into_input_field_first_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I enter value into input field Last Name",
+            "match": {
+              "location": "Stepdefinition.ElearningSteps.i_enter_value_into_input_field_last_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I enter value into input field email",
+            "match": {
+              "location": "Stepdefinition.ElearningSteps.i_enter_value_into_input_field_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I enter value into input field Username",
+            "match": {
+              "location": "Stepdefinition.ElearningSteps.i_enter_value_into_input_field_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I enter value into input field Password",
+            "match": {
+              "location": "Stepdefinition.ElearningSteps.i_enter_value_into_input_field_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I enter value into input field Confirm Password",
+            "match": {
+              "location": "Stepdefinition.ElearningSteps.i_enter_value_into_input_field_confirm_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I click on Register button",
+            "match": {
+              "location": "Stepdefinition.ElearningSteps.i_click_on_register_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "I verify the message \"Your personal settings have been registered.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Your personal settings have been registered.",
+                  "offset": 22
+                }
+              ],
+              "location": "Stepdefinition.ElearningSteps.i_verify_the_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "I click on user icon",
+            "match": {
+              "location": "Stepdefinition.ElearningSteps.i_click_on_user_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "I click on inbox link",
+            "match": {
+              "location": "Stepdefinition.ElearningSteps.i_click_on_inbox_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "I click on compose button",
+            "match": {
+              "location": "Stepdefinition.ElearningSteps.i_click_on_compose_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "I enter value into input field Send To as \"naveen\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "naveen",
+                  "offset": 43
+                }
+              ],
+              "location": "Stepdefinition.ElearningSteps.i_enter_value_into_input_field_send_to(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "I click on \"naveen\" in options list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "naveen",
+                  "offset": 12
+                }
+              ],
+              "location": "Stepdefinition.ElearningSteps.i_click_on_sendto_in_options_list(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "I enter value into input field Subject",
+            "match": {
+              "location": "Stepdefinition.ElearningSteps.i_enter_value_into_input_field_subject()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "I enter value into input field Message",
+            "match": {
+              "location": "Stepdefinition.ElearningSteps.i_enter_value_into_input_field_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "I click on submit button",
+            "match": {
+              "location": "Stepdefinition.ElearningSteps.i_click_on_submit_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "I should see success message as \"The message has been sent to\" and \"naveen\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "The message has been sent to",
+                  "offset": 33
+                },
+                {
+                  "val": "naveen",
+                  "offset": 68
+                }
+              ],
+              "location": "Stepdefinition.ElearningSteps.i_should_see_success_message(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@e2e"
+          }
+        ]
+      }
+    ],
+    "name": "To validate registration and signin functionalities of elearning page",
+    "description": "",
+    "id": "to-validate-registration-and-signin-functionalities-of-elearning-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/SignUp/SingUp.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.655">
+<testcase classname="To validate registration and signin functionalities of elearning page" name="To validate registration and send message functionalities" time="0.231">
+<failure message="The driver executable does not exist: C:\Users\prane\Downloads\chromedriver_win32\chromedriver.exe" type="java.lang.IllegalStateException"><![CDATA[Given I navigate to "http://elearningm1.upskills.in/index.php"..............skipped
+And I click on SignUp button................................................skipped
+And I enter value into input field First Name...............................skipped
+And I enter value into input field Last Name................................skipped
+And I enter value into input field email....................................skipped
+And I enter value into input field Username.................................skipped
+And I enter value into input field Password.................................skipped
+And I enter value into input field Confirm Password.........................skipped
+When I click on Register button.............................................skipped
+Then I verify the message "Your personal settings have been registered."....skipped
+And I click on user icon....................................................skipped
+And I click on inbox link...................................................skipped
+And I click on compose button...............................................skipped
+And I enter value into input field Send To as "naveen"......................skipped
+And I click on "naveen" in options list.....................................skipped
+And I enter value into input field Subject..................................skipped
+And I enter value into input field Message..................................skipped
+When I click on submit button...............................................skipped
+Then I should see success message as "The message has been sent to" and "naveen".skipped
+
+StackTrace:
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\prane\Downloads\chromedriver_win32\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at Stepdefinition.ElearningSteps.startUp(ElearningSteps.java:34)
+]]></failure>
+</testcase>
+</testsuite>
